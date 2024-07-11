@@ -31,8 +31,18 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import flutter from "./tech/flutter.png";
 import androidStudio from "./tech/androidStudio.png";
+import portfolio from "../assets/portfolio.png";
+import diabetes from "../assets/diabetes.jpg";
+import customerSeg from "../assets/customerSeg.webp";
+import bidirectional from "../assets/bidirectional.jpeg";
+import emit from "../assets/emit.png";
+import budget from "../assets/budget.webp";
 
 export {
+  diabetes,
+  customerSeg,
+  bidirectional,
+  emit,
   logo,
   backend,
   creator,
@@ -62,5 +72,7 @@ export {
   flutter,
   jobit,
   tripguide,
-  androidStudio
+  androidStudio,
+  portfolio,
+  budget,
 };

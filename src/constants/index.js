@@ -25,6 +25,12 @@ import {
   threejs,
   flutter,
   androidStudio,
+  portfolio,
+  diabetes,
+  customerSeg,
+  bidirectional,
+  emit,
+  budget,
 } from "../assets";
 
 export const navLinks = [
@@ -203,68 +209,184 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A personal portfolio website showcasing projects, skills, and experience, built to highlight professional achievements and capabilities.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ThreeJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/Naval1704/Gaurav_Naval",
+  },  
+  {
+    name: "Budget Tracker Application",
+    description:
+      "A budget tracking app that allows users to list, manage, and categorize their budgets efficiently. Built using Flutter for a seamless user experience, with an AWS backend ensuring robust and secure data management.",
+    tags: [
+      {
+        name: "Android Studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flutter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Amplify",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: budget,
+    source_code_link: "https://github.com/Naval1704/Budget-Tracker-App",
+  },   
+  {
+    name: "Diabetes Detection",
+    description:
+      "A machine learning model to detect diabetes based on user-provided medical data, offering early diagnosis and personalized health recommendations.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NumPy",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Scikit-Learn",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Data Preprocessing",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: diabetes,
+    source_code_link: "https://github.com/Naval1704/Diabetes-Detection",
   },
   {
-    name: "Job IT",
+    name: "Customer Segmentation Analysis",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A data analysis project that segments customers based on purchasing behavior, providing insights to optimize marketing strategies and improve customer targeting.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Pandas",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Data Analysis",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Clustering",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "K-Means",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: customerSeg,
+    source_code_link: "https://github.com/Naval1704/Customer-Segmentation",
+  },  
+  {
+    name: "Emit",
+    description:
+      "Created a voice-controlled assistant for voice-activated commands,  includes advanced voice search, voice-based YouTube search, sending WhatsApp voice messages, and more, offering over 20 unique commands.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Natural Language Processing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Speech recognition",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: emit,
+    source_code_link: "https://github.com/Naval1704/Emit-Voice-Controlled-Assistant",
   },
   {
-    name: "Trip Guide",
+    name: "Bi-Directional Charging",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a bidirectional battery charging system using Dual active bridge Technology in MATLAB. Optimized. Conducted extensive simulations to evaluate system performance under varying conditions. system design and control Algorithms to ensure safe and efficient power transfer.",
     tags: [
       {
-        name: "nextjs",
+        name: "MATLAB",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Physical Electronics",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Simulink",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: bidirectional,
+    source_code_link: "https://github.com/Naval1704/Bidirectional-Battery-Charger-For-Electric-Vehicle",
+  },  
+  {
+    name: "PingPong Game",
+    description:
+      "Designed and Implemented the Ping-Pong Game on PYNQ Z2 board using concepts and Logical requirements of Digital Electronics Course. Using Vivado Xilinx software, coded the complete game and implemented Physically in Digital Electronics Lab.",
+    tags: [
+      {
+        name: "MATLAB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Physical Electronics",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Simulink",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bidirectional,
+    source_code_link: "https://github.com/Naval1704/PingPong_DigitalElectronics",
+  },  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

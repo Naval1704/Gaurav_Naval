@@ -18,7 +18,7 @@ const Stars = (props) => {
         <PointMaterial
           transparent
           color='#f272c8'
-          size={0.002}
+          size={0.002}  // Adjust point size as needed
           sizeAttenuation={true}
           depthWrite={false}
         />
@@ -30,7 +30,7 @@ const Stars = (props) => {
 const StarsCanvas = () => {
   return (
     <div className='w-full h-auto absolute inset-0 z-[-1]'>
-      <Canvas camera={{ position: [0, 0, 1] }}>
+      <Canvas camera={{ position: [0, 0, 1] }} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}>
         <Suspense fallback={null}>
           <Stars />
         </Suspense>

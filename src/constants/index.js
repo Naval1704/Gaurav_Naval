@@ -372,16 +372,20 @@ const projects = [
       "Designed and Implemented the Ping-Pong Game on PYNQ Z2 board using concepts and Logical requirements of Digital Electronics Course. Using Vivado Xilinx software, coded the complete game and implemented Physically in Digital Electronics Lab.",
     tags: [
       {
-        name: "MATLAB",
+        name: "Digital Electronics",
         color: "blue-text-gradient",
       },
       {
-        name: "Physical Electronics",
+        name: "vivado xilinx",
         color: "green-text-gradient",
       },
       {
-        name: "Simulink",
+        name: "Verilog",
         color: "pink-text-gradient",
+      },
+      {
+        name: "PYNQ-Z2 Board",
+        color: "orange-text-gradient",
       },
     ],
     image: bidirectional,

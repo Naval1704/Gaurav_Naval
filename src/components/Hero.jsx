@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+import { PlaneCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="w-full h-[70rem] flex justify-center items-center relative mx-auto">
+    <section className="w-full h-[65rem] flex justify-center items-center relative mx-auto">
       <div
         className={`${styles.paddingX} flex flex-row items-start gap-5 z-10`}
       >
@@ -47,6 +48,9 @@ const Hero = () => {
             , <br className="sm:block block" /> I like building Quality Projects
             and Gaining a lot of experience
           </motion.p>
+          <div className="relative">
+            <PlaneCanvas />
+          </div>
         </div>
       </div>
     </section>

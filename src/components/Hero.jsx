@@ -48,9 +48,9 @@ const Hero = () => {
             , <br className="sm:block block" /> I like building Quality Projects
             and Gaining a lot of experience
           </motion.p>
-          <div className="relative">
+          {/* <div className="relative">
             <PlaneCanvas />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

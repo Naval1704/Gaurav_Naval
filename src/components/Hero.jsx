@@ -30,7 +30,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            Hi, I'm <span className="text-[#915eff]">Gaurav Naval</span>
+            Hi, I'm <span className="text-[#d5763c]">Gaurav Naval</span>
           </motion.h1>
           <motion.p
             className={`${styles.heroSubText} mt-2 text-white-100`}
@@ -40,10 +40,10 @@ const Hero = () => {
           >
             A Passionate Developer from{" "}
             <span className="relative">
-              <span className="gradient-text ">INDIA</span>
-              <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-orange-500 via-white to-green-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r font-bold from-india-orange via-india-white to-india-green bg-clip-text text-transparent">INDIA</span>
+              {/* <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-orange-500 via-white to-green-500 bg-clip-text text-transparent">
                 INDIA
-              </span>
+              </span> */}
             </span>
             , <br className="sm:block block" /> I like building Quality Projects
             and Gaining a lot of experience

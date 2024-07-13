@@ -16,12 +16,12 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}  >
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.5)}  >
       <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 350,
         }}
         className="bg-gradient-to-r from-indigo-900 via-purple-1000 to-pink-900 p-5 rounded-2xl sm:w-[360px] w-full shadow-lg"
       >
@@ -77,7 +77,7 @@ const Works = () => {
       </div>
       <div className="w-full flex">
         <motion.p
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-gray-300"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           variants={fadeIn("", "", 0.1, 1)}
         >
           Following projects showcase my skills and experience through

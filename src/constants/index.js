@@ -130,11 +130,12 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Ayata Intelligence Pvt. Ltd.",
+    link: "https://ayataintelligence.com/",
     icon: ayata,
     iconBg: "#E6DEDD",
     date: "May 2024 - June 2024",
     points: [
-      "Led frontend development of a web application from inception to deployment using React.js and related technologies.",
+      "Led frontend development of a web application from inception to deployment using React.js.",
       "Designed and implemented a responsive and visually appealing UI/UX, enhancing user interaction and experience.",
       "Deployed the application on Firebase hosting, ensuring scalability, reliability, and cross-browser compatibility.",
     ],

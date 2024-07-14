@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { fadeIn, slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <div className="xl:mt-12 flex justify-center items-center overflow-hidden">
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={fadeIn("up", "spring", 0.3, 0.70)}
         className="flex-[0.75] bg-white p-8 rounded-2xl shadow-lg"
       >
         <p className='text-black-100 sm:text-[18px] text-[14px] uppercase tracking-wider'>Get in touch</p>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.5)}  >
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.5)}>
       <Tilt
         options={{
           max: 45,
@@ -63,6 +63,8 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <>
       <div>
@@ -87,11 +89,21 @@ const Works = () => {
           effectively.
         </motion.p>
       </div>
-      <div className="mt-20  flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`Project-${index}`} index={index} {...project} />
         ))}
       </div>
+      {/* {!showMore && (
+        <div className="mt-10 text-center">
+          <button
+            onClick={() => setShowMore(true)}
+            className="bg-blue-500 text-lg text-white font-semibold px-8 py-2 rounded-full shadow-lg hover:shadow-xl transition duration-300"
+          >
+            Show More Projects
+          </button>
+        </div>
+      )} */}
     </>
   );
 };

@@ -46,6 +46,7 @@ const Contact = () => {
           email: "",
           message: "",
         });
+        alert("Thank you! Your message has been sent.");
       }, (error) => {
         setLoading(false);
         console.error(error);
@@ -107,12 +108,6 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-
-          {submitted && (
-            <p className="text-green-500 font-medium mt-4">
-              Thank you! Your message has been sent.
-            </p>
-          )}
         </form>
       </motion.div>
 

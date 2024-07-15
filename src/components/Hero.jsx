@@ -6,9 +6,7 @@ import { PlaneCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className="w-full h-[65rem] flex justify-center items-center relative mx-auto">
-      <div
-        className={`${styles.paddingX} flex flex-row items-start gap-5 z-10`}
-      >
+      <div className={`${styles.paddingX} flex flex-row items-start gap-5 z-10`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <motion.div
             className="w-5 h-5 rounded-full bg-[#915eff]"
@@ -32,25 +30,24 @@ const Hero = () => {
           >
             Hi, I'm <span className="text-[#d5763c]">Gaurav Naval</span>
           </motion.h1>
-          <motion.p
+          <motion.div
             className={`${styles.heroSubText} mt-2 text-white-100`}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.5 }}
           >
-            A Passionate Developer from{" "}
-            <span className="relative">
-            <span className="bg-gradient-to-r font-bold from-india-orange via-india-white to-india-green bg-clip-text text-transparent">INDIA</span>
-              {/* <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-orange-500 via-white to-green-500 bg-clip-text text-transparent">
-                INDIA
-              </span> */}
-            </span>
-            , <br className="sm:block block" /> I like building Quality Projects
-            and Gaining a lot of experience
-          </motion.p>
-          {/* <div className="relative">
-            <PlaneCanvas />
-          </div> */}
+            <p>
+              A Passionate Developer from{" "}
+              <span className="relative">
+                <span className="bg-gradient-to-r font-bold from-india-orange via-india-white to-india-green bg-clip-text text-transparent">
+                  INDIA
+                </span>
+              </span>
+            </p>
+            <p className="text-secondary mt-8 max-w-[800px]">
+              "Finding innovative solutions to challenging problems is my expertise,<br className='sm:hidden block' /> a skill I utilize in both my professional projects and personal Life."
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>
